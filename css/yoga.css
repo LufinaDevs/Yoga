@@ -2,6 +2,10 @@ p {
 	font-family: 'Montserrat', sans-serif;
 }
 
+.dia {
+	font-size: 14px;
+}
+
 #description {
 	height: 108px;
 }
