@@ -16,5 +16,8 @@ p {
 
 #titulo {
 	font-family: 'Antic', sans-serif;
-	text-transform: none;
+}
+
+section#contact {
+	background-color: #ffffff;
 }
