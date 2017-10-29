@@ -25,3 +25,11 @@ section#contact {
 #success-text {
 	color: #0aaf10;
 }
+
+header {
+	background-color: #337ab7;
+}
+
+header .header-content .header-content-inner p {
+    color: #ffffff;
+}
