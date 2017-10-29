@@ -21,3 +21,7 @@ p {
 section#contact {
 	background-color: #ffffff;
 }
+
+#success-text {
+	color: #0aaf10;
+}
