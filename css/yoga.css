@@ -28,8 +28,31 @@ section#contact {
 
 header {
 	background-color: #337ab7;
+	transition: background-image 1s ease-in-out;
+	background-image: url("../img/carrousel/header1.png");
+	
+}
+
+header:hover{
+	background-image: url("../img/carrousel/header2.png");
 }
 
 header .header-content .header-content-inner p {
     color: #ffffff;
 }
+
+.img-responsive {
+  margin-bottom: 30px;
+}
+
+.row .first {
+	margin: 0px;
+}
+
+@media (min-width: 768px) {
+  .navbar-default {
+    background-color: #337ab7;
+    border-color: rgba(255, 255, 255, 0.3);
+  }
+
+
