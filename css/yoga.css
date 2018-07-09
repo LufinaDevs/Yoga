@@ -28,17 +28,69 @@ section#contact {
 
 header {
 	background-color: #337ab7;
-	transition: background-image 1s ease-in-out;
-	background-image: url("../img/carrousel/header1.png");
-	
-}
-
-header:hover{
-	background-image: url("../img/carrousel/header2.png");
 }
 
 header .header-content .header-content-inner p {
     color: #ffffff;
+}
+
+.bg-primary, .btn-primary {
+	background-color: #88d8b0;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary.focus,
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+  color: white;
+  background-color: #88d8b0;
+  border-color: #6cac8c;
+}
+
+.btn-primary.disabled,
+.btn-primary[disabled],
+fieldset[disabled] .btn-primary,
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled.focus,
+.btn-primary[disabled].focus,
+fieldset[disabled] .btn-primary.focus,
+.btn-primary.disabled:active,
+.btn-primary[disabled]:active,
+fieldset[disabled] .btn-primary:active,
+.btn-primary.disabled.active,
+.btn-primary[disabled].active,
+fieldset[disabled] .btn-primary.active {
+  background-color: #88d8b0;
+  border-color: #88d8b0;
+}
+
+.btn-primary .badge {
+  color: #88d8b0;
+  background-color: white;
+}
+
+.bg-info {
+	background-color: #f5f5dc;
+}
+
+
+a {
+  color: #88d8b0;
+}
+a:hover,
+a:focus {
+  color: #88d8b0;
+}
+
+hr {
+  border-color: #88d8b0;
 }
 
 .img-responsive {
@@ -54,5 +106,31 @@ header .header-content .header-content-inner p {
     background-color: #337ab7;
     border-color: rgba(255, 255, 255, 0.3);
   }
+
+ .navbar-default .navbar-header .navbar-brand {
+  color: #88d8b0;
+}
+.navbar-default .navbar-header .navbar-brand:hover,
+.navbar-default .navbar-header .navbar-brand:focus {
+  color: #88d8b0;
+}
+
+  .navbar-default.affix .navbar-header .navbar-brand {
+    color: #88d8b0;
+  }
+  .navbar-default.affix .navbar-header .navbar-brand:hover,
+  .navbar-default.affix .navbar-header .navbar-brand:focus {
+    color: #88d8b0;
+  }
+
+  .navbar-default .nav > li > a:hover,
+.navbar-default .nav > li > a:focus:hover {
+  color: #88d8b0;
+}
+.navbar-default .nav > li.active > a,
+.navbar-default .nav > li.active > a:focus {
+  color: #88d8b0 !important;
+  background-color: transparent;
+}
 
 

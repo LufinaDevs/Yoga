@@ -105,17 +105,8 @@
                         Actualmente me dedico al estudio de la Anatomía aplicada al movimiento.</p>
                     <a href="#horarios" class="page-scroll btn btn-default btn-xl sr-button" style="margin-bottom:15px">Horarios</a>
                 </div>
-                <div class="container grid-custom">
-    <div class="row first">
-      <div class="col-sm-6">
-        <img src="img/sobre1.jpg" alt="" class="img-responsive center-block">
-      </div>
-      <div class="row col-sm-6">
-        <div class="col-xs-6"><img src="img/sobre2.jpg" alt="" class="img-responsive"></div>
-        <div class="col-xs-6"><img src="img/sobre3.jpg" alt="" class="img-responsive"></div>
-      </div>
-    </div>
             </div>
+        </div>
     </section>
 
     <section class="bg-info" id="horarios">
@@ -234,31 +225,6 @@
             }, 5000);
         });
     </script>
-    <script>
-        $(function () {
-    var header = $('header');
-    var backgrounds = [
-      'url("img/carrousel/header1.png")',
-      'url("img/carrousel/header2.png")', 
-      'url("img/carrousel/header3.png")',
-      'url("img/carrousel/header4.png")',
-      'url("img/carrousel/header5.png")',
-      'url("img/carrousel/header6.png")'
-      ];
-    var current = 0;
-
-    function nextBackground() {
-        header.css(
-            'background-image',
-        backgrounds[current = ++current % backgrounds.length]);
-
-        setTimeout(nextBackground, 3000);
-    }
-    setTimeout(nextBackground, 3000);
-    header.css('background-image', backgrounds[0]);
-});
-    </script>
-
 </body>
 
 </html>
